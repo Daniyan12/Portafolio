@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+	--color-hover-menu:#629EC9;
+	--color-azul:#629EC9;
+	--color-titulos:#303030;
+	--fondo-title:#333333;
+	--fondo-gris:#fafafa;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #888;
+}
+
+header{
+	background-color: #203966;
+}
+
+.navbar-nav .nav-link.btn-primary{
+	background-color: #fff;
+	color: #222 !important;
+	font-weight: 600 !important;
+	border: 0;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+
+.navbar-nav .nav-link.btn-primary:hover{
+	background-color: var(--color-hover-menu);
+	color: #fff !important;
+}
+
+#hero{
+	background-image: url("../img/bg-video.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+}
+
+#hero h3{
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+#hero h1{
+	font-size: 50px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.btn-verde{
+	background-color: var(--color-azul);
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.btn-verde:hover{
+	background-color: #62DBD5;
+	color: #333;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.86);
+	padding: 15% 0;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#icons i{
+	color: var(--color-verde);
+	font-size: 36px;
+}
+
+#icons h4{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#services{
+	background-color: #fafafa;
+}
+
+.Titulo{
+	font-size: 46px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.Subtitulo{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 5%;
+}
+
+#services .card{
+	border: 0;
+}
+
+#services .card-header{
+	padding: 0;
+}
+
+#services h4{
+	font-size: 18px;
+}
+
+#services a{
+	font-size: 13px;
+}
+
+#services a:hover{
+	color: var(--color-titulos);
+	text-decoration: none;
+}
+#services a::before{
+	content: '\f061;';
+	font-family: 'Line Awesome Free';
+	font-weight: 600;
+}
+
+#footer-info{
+	background-color: #1f2021;
+	padding: 45px 0;
+	color: #58606b;
+	font-size: 14px;
+}
+#footer-info h4{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+#footer-copy{
+	background-color: #191919;
+	padding: 30px 0;
+	color: #58606b;
+	font-size: 14px;
+}
+
+#footer-copy i.lab{
+	background-color: #000;
+	color: #535353;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 20px;
+}
+#footer-copy .la-facebook-f:hover{
+	background-color: #3b5998;
+	color: #fff;
+}
+#footer-copy .la-instagram:hover{
+	background-color: #dd4b39;
+	color: #fff;
+}
+#footer-copy .la-linkedin-in:hover{
+	background-color: #007bb5;
+	color: #fff;
+}
+#footer-copy .la-twitter:hover{
+	background-color: #00aced;
+	color: #fff;
+}#footer-info a{
+	color: #58606b;
+	text-decoration: none;
+}
+#footer-info a:hover{
+	color: #4274b7;
+}
+
+#title{
+	background-color: var(--fondo-title);
+	padding: 40px 0;
+}
+
+#title h1{
+	font-size: 26px;
+	font-weight: 400;
+}
+
+#contact .Titulo{
+	font-size: 40px;
+	text-align: center;
+	color: #CDCDCD;
+}
+
+#contact h4{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 20px 0;
+}
+
+#contact i{
+	background-color: var(--color-verde);
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#contact li{
+	margin-bottom: 15px;
+}
+
+input, 
+textarea{
+	border: 2px solid #8EC6EF !important;
+	border-radius: 0 !important;
+	color: #fff !important;
+	padding: 10px !important;
+	background-color: #4CA5C5 !important;
+}
+
+input::placeholder,
+textarea::placeholder{
+	color: #fff !important;
+}
+button.btn-verde{
+	display: inline-block;
+	text-align: center;
+}
+button.btn-verde:hover{
+	background-color: #222;
+	color: #fff;
+}
+
+#hero-slides h2{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+#hero-slides p{
+	font-size: 16px;
+	color: #000;
+}
+
+.bg-gris{
+	background-color: var(--fondo-gris);
+}
+
+
+
+
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+#about .card{
+	border:0;
+	padding: 10px 20px;
+}
+#about .card h5{
+	color: #aaa;
+	font-size: 14px;
+}
+
+.card-info{
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+.card-info h4{
+	color: #fff;
+}
+
+.card .position-relative{
+	overflow: hidden;
+}
+.img-zoom img{
+	transition: all 0.5s ease-in-out;
+}
+.img-zoom:hover img{
+	transform: scale(1.2);
+	transition: all 0.5s ease-in-out;
+}
+
+#sobre{
+	padding: 40px 0;
+	background-color: #4F699E;
+}
+
+#sobre h2{
+	padding: 20px 0;
+}
+#sobre p{
+	color: #CBCBCB;
+	padding: 10px 30px;
+	font-size: 20px;
+}
+#sobre img{
+	border-radius: 35px;
+}
+.subtitle{
+	width: 66px;
+	background-color: #212329; height: 3px; border: 0;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px 0;
+	margin-bottom: 40px;
+}
+
+#service{
+	padding: 50px 0;
+	background-color: #4F699E;
+}
+#service i{
+	font-size: 80px;
+	text-align: center;
+	color: #3C67A2;
+}
+.card-body{
+	background-color: #494949;
+	text-align: center;
+	padding: 60px 20px;
+	color: #fff;
+}
+#service h4{
+	color: #CDCDCD;
+	padding: 20px;
+}
+#service .Titulo{
+	color: #CDCDCD;
+}
+
+#contact{
+	background-color: #4F699E;
+}
+
+#portafolio{
+	background-color: #4F699E;
+	padding: 50px 0;
+}
+
+#portafolio h2{
+	color: #CBCBCB;
+	padding: 30px 0;
+}
+#portafolio .Subtitulo{
+	color: #fff;
+	font: 25px;
+}
+
+.capa-overlay{
+	position: absolute;
+	top: 0;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.80);
+	opacity: 0;
+}
+.img-ghost:hover .capa-overlay{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
